@@ -9,6 +9,5 @@ target 'SocialApp' do
   pod 'Firebase/Storage'
   pod 'Kingfisher'
   pod 'Firebase/Firestore'
-  pod 'ALLoadingView'
 
 end
