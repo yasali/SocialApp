@@ -13,6 +13,9 @@
 		FC3F7E7D264567BB0086846A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3F7E7B264567BB0086846A /* LaunchScreen.storyboard */; };
 		FCB41BCC264EAD1C0051A267 /* Init.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB41BCA264EAD1C0051A267 /* Init.storyboard */; };
 		FCB41BCD264EAD1C0051A267 /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB41BCB264EAD1C0051A267 /* InitViewController.swift */; };
+		FCB41C0D264EB24B0051A267 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB41C0C264EB24B0051A267 /* AuthViewController.swift */; };
+		FCB41C10264EB2570051A267 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB41C0F264EB2570051A267 /* Auth.storyboard */; };
+		FCB41C15264EB5EA0051A267 /* StoryBoardExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB41C14264EB5EA0051A267 /* StoryBoardExtenstion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		FC3F7E7E264567BB0086846A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCB41BCA264EAD1C0051A267 /* Init.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Init.storyboard; path = Init/Init.storyboard; sourceTree = "<group>"; };
 		FCB41BCB264EAD1C0051A267 /* InitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InitViewController.swift; path = Init/InitViewController.swift; sourceTree = "<group>"; };
+		FCB41C0C264EB24B0051A267 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		FCB41C0F264EB2570051A267 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		FCB41C14264EB5EA0051A267 /* StoryBoardExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardExtenstion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,7 @@
 		FC3F7EA6264582AC0086846A /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				FCB41C13264EB59F0051A267 /* Extenstions */,
 				FC3F7E70264567BA0086846A /* AppDelegate.swift */,
 			);
 			path = Application;
@@ -106,6 +113,7 @@
 		FC3F7EA8264583080086846A /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				FCB41C06264EB22F0051A267 /* Auth */,
 				FCB41BC9264EAD120051A267 /* Init */,
 			);
 			path = Presenter;
@@ -118,6 +126,23 @@
 				FCB41BCB264EAD1C0051A267 /* InitViewController.swift */,
 			);
 			name = Init;
+			sourceTree = "<group>";
+		};
+		FCB41C06264EB22F0051A267 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FCB41C0C264EB24B0051A267 /* AuthViewController.swift */,
+				FCB41C0F264EB2570051A267 /* Auth.storyboard */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FCB41C13264EB59F0051A267 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				FCB41C14264EB5EA0051A267 /* StoryBoardExtenstion.swift */,
+			);
+			path = Extenstions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB41C10264EB2570051A267 /* Auth.storyboard in Resources */,
 				FCB41BCC264EAD1C0051A267 /* Init.storyboard in Resources */,
 				FC3F7E7D264567BB0086846A /* LaunchScreen.storyboard in Resources */,
 				FC3F7E7A264567BB0086846A /* Assets.xcassets in Resources */,
@@ -235,7 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCB41BCD264EAD1C0051A267 /* InitViewController.swift in Sources */,
+				FCB41C0D264EB24B0051A267 /* AuthViewController.swift in Sources */,
 				FC3F7E71264567BA0086846A /* AppDelegate.swift in Sources */,
+				FCB41C15264EB5EA0051A267 /* StoryBoardExtenstion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
